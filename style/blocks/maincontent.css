@@ -61,9 +61,11 @@
 }
 
 
+. offers__list{
+    margin-top: 0px;
+}
 
 .offers__item{
-    margin-top: 51px;
     width: 362px;
     height: 449px;
     display: inline-block;
