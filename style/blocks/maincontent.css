@@ -61,15 +61,13 @@
 }
 
 
-. offers__list{
-    margin-top: 0px;
-}
 
 .offers__item{
     width: 362px;
     height: 449px;
     display: inline-block;
     margin-right: 27px;
+    margin-top: 0px;
     background: #FFFFFF;
     border-radius: 5px 5px 5px 5px;
 }
