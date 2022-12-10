@@ -1,0 +1,78 @@
+.section {
+    margin-top: 152px;
+}
+
+p {
+    margin-top: 0;
+}
+
+.about:before, .about__desc {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about:before {
+    content: "";
+    width: 490px;
+    height: 505px;
+    background: url(/img/bike.png) center center / cover no-repeat;
+    border-radius: 5px;
+}
+
+.about__desc{
+    background: url(/img/tourist.png);
+    padding: 70px 202px 70px 81px;
+    width: 785px;
+    height: 455px;
+    margin-left: -140px;
+    margin-top: 101px;
+    border-radius: 5px;
+}
+
+.about__title {
+    font-family: 'Open Sans';
+    margin-bottom: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+}
+
+.about__text {
+    font-family: 'Open Sans';
+    margin-bottom: 42px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color:#060606;
+}
+
+.about__text p {
+    margin-bottom: 20px;
+}
+
+.about__text p:last-child {
+    margin-bottom: 0;
+}
+
+.button__desc {
+    width: 168px;
+    padding: 18px 0;
+    background-color: #F5170E;
+    border: 1px solid #F5170E;
+    border-radius: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.button__desc:hover {
+    background-color: #FFFFFF;
+    color: #F5170E;
+    border: 1px solid #F5170E;
+}
