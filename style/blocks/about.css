@@ -15,12 +15,12 @@ p {
     content: "";
     width: 490px;
     height: 505px;
-    background: url(/img/bike.png) center center / cover no-repeat;
+    background: url(/project-asia/img/bike.png) center center / cover no-repeat;
     border-radius: 5px;
 }
 
 .about__desc{
-    background: url(/img/tourist.png);
+    background: url(/project-asia/img/tourist.png);
     padding: 70px 202px 70px 81px;
     width: 785px;
     height: 455px;
