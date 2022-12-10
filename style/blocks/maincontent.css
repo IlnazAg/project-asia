@@ -159,14 +159,14 @@
 
 
 .news__plane {
-    background: url(/project-asia/img/plane.png);
+    background: url(/img/plane.png);
     width: 557px;
     height: 394px; 
     border-radius: 5px;
 }
 
 .news__surfing {
-    background: url(/project-asia/img/surfer.png);
+    background: url(/img/surfer.png);
     width: 557px;
     height: 394px;
     border-radius: 5px;
@@ -262,4 +262,12 @@
 .pager__item--active .pager__link {
     background: #FFFFFF;
     color: #F5170E;
+}
+
+.paginator__item:hover {
+    background: #FFFFFF;
+    color: #F5170E;
+    border-radius: 50%;
+    text-decoration: none;
+    font-style: normal;
 }
