@@ -127,7 +127,7 @@
     margin-left: 28px;
 }
 
-.button__light {
+.offers__button-light {
     width: 168px;
     padding: 18px 0;
     background-color: #FFFFFF;
@@ -145,7 +145,7 @@
 
 }
 
-.button__light:hover {
+.offers__button-light:hover {
     background-color: #F5170E;
     color: #FFFFFF;
     border: 1px solid #F5170E;
