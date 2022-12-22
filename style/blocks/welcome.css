@@ -8,13 +8,12 @@
     align-items: center;
     justify-content: center;
     background: url("../../img/welcome.png") top no-repeat;
+    background-size: cover;
 }
 
 .welcome__container {
-    width: 591px;
-    height: 248px;
     background: url(../../img/shades.png) center bottom no-repeat;
-    margin-top: 263px;
+    background-size: cover;
 }
 
 .central {
@@ -24,7 +23,6 @@
     animation: zoom 0.9s ease-in;
     animation-fill-mode: forwards;
     opacity: 0;
-    margin-top: 52px;
 }
 
 
