@@ -7,10 +7,15 @@
     height: 100%;
     align-items: center;
     justify-content: center;
-    background: url("../../img/shades.png") center center no-repeat, url("../../img/welcome.png") center center no-repeat;
+    background: url("../../img/welcome.png") center center no-repeat;
+    background-size: cover;
 }
 
-
+.welcome__container {
+    background: url("../../img/shades.png") top no-repeat;
+    width: 591px;
+    height: 248px;
+}
 
 .central {
     display: flex;
@@ -19,6 +24,7 @@
     animation: zoom 0.9s ease-in;
     animation-fill-mode: forwards;
     opacity: 0;
+    margin-top: 52px;
 }
 
 
