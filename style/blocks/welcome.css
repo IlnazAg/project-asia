@@ -13,7 +13,7 @@
 .welcome__container {
     width: 591px;
     height: 248px;
-    background: url("../../img/shades.png") top no-repeat;
+    background: url("../../img/shades.png") top cover no-repeat;
 }
 
 .central {
