@@ -13,7 +13,7 @@
 .welcome__container {
     width: 591px;
     height: 248px;
-    background: url(../../img/shades.png) top no-repeat;
+    background: url("../../img/shades.png") top no-repeat;
 }
 
 .central {
@@ -23,6 +23,7 @@
     animation: zoom 0.9s ease-in;
     animation-fill-mode: forwards;
     opacity: 0;
+    margin-top: 52px;
 }
 
 
@@ -33,6 +34,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
+    margin-bottom: 52.5px;
 }
 
 @keyframes zoom {
